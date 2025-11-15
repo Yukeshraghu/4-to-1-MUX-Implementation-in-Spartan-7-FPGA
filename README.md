@@ -72,6 +72,7 @@ assign y = (~s[1] & ~s[0] & i[0]) |
 endmodule
 ```
 ## Constraint file for Seven-Segment Display
+
 ```set_property -dict {PACKAGE_PIN V2 IOSTANDARD LVCMOS33} [get_ports {i[0]}]
 set_property -dict {PACKAGE_PIN U2 IOSTANDARD LVCMOS33} [get_ports {i[1]}]
 set_property -dict {PACKAGE_PIN U1 IOSTANDARD LVCMOS33} [get_ports {i[2]}]
